@@ -24,34 +24,40 @@ import java.util.List;
 public class Tar {
     private String[] commandLine; //= new String();
 
-                                //создаём конструктор
-    Tar (String commandLine) {
+    //создаём конструктор
+    Tar (String commandLine) throws IOException {
         this.commandLine = commandLine.trim().split(" ");
+        run();
     }
 
+    public void run() throws IOException {
+        if (commandLine[1].equals("-u")){
+            u();
+        }
+        else out();
+    }
     public void u() throws IOException {
-        try {
             File inputFile = new File(commandLine[2]);
             List<String> lines = Files.readAllLines(Paths.get(commandLine[2]));
             int numberOfLines = lines.size();                       // показывает количество строк в исходном файле
             int numberLine = 0;                                     // показывает номер строки в исходном файле
             int n = Integer.parseInt(lines.get(0));                 // показывает, сколько строк занимают названия файлов
             Map<String, Integer> outputFiles = new HashMap<String , Integer>();    // записывается пара: название файла - кол-во строк в файле
-            for (int i = 1; i <= n; i++){
+            for (int i = 1; i <= n; i++) {
                 numberLine++;
                 String input = lines.get(i);
                 List <String> inputLine = Arrays.asList(input.trim().split(";"));
                 String name = inputLine.get(0);
                 Integer end = Integer.valueOf(inputLine.get(1));
-                outputFiles.put(name, end);
-
+                outputFiles.put(name , end);
+            }
                 int outputFileLines;
                 while (numberLine < numberOfLines - 1) {
                     numberLine++;
                     String line = lines.get(numberLine);
                     outputFileLines = outputFiles.get(line.trim());
                     String fileName = line.trim();
-                    File output = new File("C:\\Users\\davik\\IdeaProjects\\Tar\\src\\" + fileName);
+                    File output = new File(String.valueOf(Paths.get(fileName)));
                     FileWriter fileWrite = new FileWriter(output);
                     BufferedWriter bufferedWriter = new BufferedWriter(fileWrite);
                     while ( outputFileLines > 0 ) {
@@ -63,17 +69,13 @@ public class Tar {
                     bufferedWriter.close();
                 }
             }
-        }catch (NoSuchFileException ex){
-            System.err.println(ex.getMessage());
-        }
-    }
+
 
     public void out() throws IOException {
 
         int n = commandLine.length - 3;
-
         File output = new File(commandLine[ commandLine.length - 1 ]);
-        RandomAccessFile outputFile = new RandomAccessFile(output , "rw");
+
         FileWriter fw = new FileWriter(output);
         fw.write(n+"\n");
         String[] fileContent = new String[ n ];                               // имя файла и его содержимое

@@ -2,22 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="480d6aa8-acbd-4f5f-a9ce-62a2ed21fae8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/files/out/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/out/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/out/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/out/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/out/file3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/testFiles/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/testFiles/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/testFiles/file3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/tests/out/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/tests/out/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/tests/out/file3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/tests/u/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/daxavic/Tar/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/out/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/out/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/out/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/out/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/out/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/out/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/out/file3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/out/file3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/testFiles/file1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/testFiles/file2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/testFiles/file3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/testFiles/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/tests/out/file1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/tests/out/file2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/tests/out/file3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/tests/out/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/tests/u/file1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/tests/u/file2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/tests/u/file3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/tests/u/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daxavic/Tar/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daxavic/Tar/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/daxavic/Tar/Tar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daxavic/Tar/Tar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/daxavic/Tar/TarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/daxavic/Tar/TarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/daxavic/Tar/Tar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daxavic/Tar/Tar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/daxavic/Tar/Tar1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/daxavic/Tar/TarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/daxavic/Tar/TarTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,8 +39,8 @@
     <session id="-83984560">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
@@ -44,22 +52,22 @@
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="6711" />
+          <entry key="java" value="7327" />
           <entry key="output" value="14" />
-          <entry key="txt" value="280" />
+          <entry key="txt" value="310" />
           <entry key="xml" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6709" />
-          <entry key="PLAIN_TEXT" value="295" />
+          <entry key="JAVA" value="7325" />
+          <entry key="PLAIN_TEXT" value="325" />
           <entry key="RegExp" value="2" />
           <entry key="XML" value="21" />
         </counts>
@@ -68,17 +76,17 @@
         <counts>
           <entry key="iml" value="1" />
           <entry key="input" value="1" />
-          <entry key="java" value="36" />
+          <entry key="java" value="40" />
           <entry key="output" value="2" />
-          <entry key="txt" value="72" />
+          <entry key="txt" value="93" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="36" />
-          <entry key="PLAIN_TEXT" value="75" />
+          <entry key="JAVA" value="40" />
+          <entry key="PLAIN_TEXT" value="96" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -89,49 +97,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/daxavic/Tar/Tar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-850">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="328">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#1553#1571#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/files/tests/u/input.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/daxavic/Tar/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="33" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/files/testFiles/file1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/files/testFiles/file2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/files/testFiles/file3.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="136">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,10 +122,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/daxavic/Tar/TarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+            <state relative-caret-position="204">
+              <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#612#620#0" expanded="true" />
+                <element signature="e#671#679#0" expanded="true" />
+                <element signature="e#948#949#0" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,6 +146,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="daviktorova &lt;daviktorova@mail.ru&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -178,26 +170,26 @@
         <option value="$PROJECT_DIR$/src/files/tests/u/file1.txt" />
         <option value="$PROJECT_DIR$/src/files/tests/u/file2.txt" />
         <option value="$PROJECT_DIR$/src/files/tests/u/file3.txt" />
-        <option value="$PROJECT_DIR$/src/files/tests/out/output.txt" />
         <option value="$PROJECT_DIR$/src/files/out/output.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/daxavic/Tar/Tar1.java" />
-        <option value="$PROJECT_DIR$/src/files/out/file1.txt" />
-        <option value="$PROJECT_DIR$/src/files/out/file2.txt" />
-        <option value="$PROJECT_DIR$/src/files/out/file3.txt" />
         <option value="$PROJECT_DIR$/src/files/u/file1.txt" />
         <option value="$PROJECT_DIR$/src/files/u/file2.txt" />
         <option value="$PROJECT_DIR$/src/files/u/file3.txt" />
-        <option value="$PROJECT_DIR$/src/files/u/input.txt" />
         <option value="$PROJECT_DIR$/src/files/tests/out/file2.txt" />
         <option value="$PROJECT_DIR$/src/files/out/1.txt" />
         <option value="$PROJECT_DIR$/src/files/out/2.txt" />
-        <option value="$PROJECT_DIR$/src/files/tests/u/input.txt" />
         <option value="$PROJECT_DIR$/src/files/u/output.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/com/daxavic/Tar/TarTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/daxavic/Tar/Main.java" />
         <option value="$PROJECT_DIR$/src/files/testFiles/file1.txt" />
         <option value="$PROJECT_DIR$/src/files/testFiles/file2.txt" />
         <option value="$PROJECT_DIR$/src/files/testFiles/file3.txt" />
+        <option value="$PROJECT_DIR$/src/files/tests/out/output.txt" />
+        <option value="$PROJECT_DIR$/src/files/out/file1.txt" />
+        <option value="$PROJECT_DIR$/src/files/out/file2.txt" />
+        <option value="$PROJECT_DIR$/src/files/out/file3.txt" />
+        <option value="$PROJECT_DIR$/src/files/tests/u/input.txt" />
+        <option value="$PROJECT_DIR$/src/files/u/input.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/daxavic/Tar/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/daxavic/Tar/TarTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/daxavic/Tar/Tar.java" />
       </list>
     </option>
@@ -254,7 +246,7 @@
               <item name="Tar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="testFiles" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Tar" type="b2602c69:ProjectViewProjectNode" />
@@ -277,6 +269,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="files" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="u" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
               <item name="u" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -325,17 +324,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="refactor&#9;ACTION&#9;RefactoringMenu" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559779544655" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559837302431" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/daxavic" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tar1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -345,14 +344,14 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.daxavic.Tar" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\davik\IdeaProjects\Tar\src\files\tests\out" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\davik\IdeaProjects\Tar\src\files\out" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\davik\IdeaProjects\Tar\src\files\out" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\davik\IdeaProjects\Tar\src\files\tests\out" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -471,43 +470,50 @@
       <option name="presentableId" value="Default" />
       <updated>1555860328628</updated>
     </task>
+    <task id="LOCAL-00001" summary="caught fixed">
+      <created>1559800979847</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559800979847</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TarTest_testOut - 2019.06.05 at 12h 22m 06s.xml">
-      <configuration name="TarTest.testOut" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TarTest_testOut - 2019.06.05 at 12h 24m 12s.xml">
-      <configuration name="TarTest.testOut" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TarTest_testU - 2019.06.05 at 12h 24m 16s.xml">
-      <configuration name="TarTest.testU" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TarTest_assertFileContent - 2019.06.05 at 23h 38m 23s.xml">
-      <configuration name="TarTest.assertFileContent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TarTest_testU - 2019.06.05 at 23h 49m 02s.xml">
-      <configuration name="TarTest.testU" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TarTest_testOut - 2019.06.05 at 23h 59m 06s.xml">
-      <configuration name="TarTest.testOut" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TarTest_outTest - 2019.06.06 at 02h 49m 02s.xml">
-      <configuration name="TarTest.outTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TarTest_outTest - 2019.06.06 at 02h 50m 15s.xml">
-      <configuration name="TarTest.outTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TarTest_uTest - 2019.06.06 at 02h 53m 41s.xml">
+    <history-entry file="TarTest_uTest - 2019.06.06 at 18h 53m 53s.xml">
       <configuration name="TarTest.uTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TarTest - 2019.06.06 at 03h 01m 16s.xml">
+    <history-entry file="TarTest_uTest - 2019.06.06 at 18h 54m 40s.xml">
+      <configuration name="TarTest.uTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TarTest_uTest - 2019.06.06 at 19h 00m 40s.xml">
+      <configuration name="TarTest.uTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TarTest_uTest - 2019.06.06 at 19h 01m 45s.xml">
+      <configuration name="TarTest.uTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TarTest - 2019.06.06 at 19h 03m 28s.xml">
+      <configuration name="TarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TarTest - 2019.06.06 at 19h 04m 31s.xml">
+      <configuration name="TarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TarTest - 2019.06.06 at 19h 05m 01s.xml">
+      <configuration name="TarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TarTest - 2019.06.06 at 19h 05m 15s.xml">
+      <configuration name="TarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TarTest - 2019.06.06 at 19h 05m 41s.xml">
+      <configuration name="TarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TarTest - 2019.06.06 at 19h 06m 20s.xml">
       <configuration name="TarTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16471507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -525,7 +531,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5003903" side_tool="true" weight="0.32935154" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32935154" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32935154" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -539,6 +545,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="caught fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="caught fixed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Tar.iml">
@@ -608,12 +618,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trat.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/treb.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/trat.txt" />
+    <entry file="file://$PROJECT_DIR$/treb.txt" />
     <entry file="jar://C:/Program Files/java/jdk1.8.0_201/src.zip!/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -635,32 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/files/out/output.txt">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="6494">
-          <caret line="382" column="23" lean-forward="true" selection-start-line="382" selection-start-column="23" selection-end-line="382" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/files/out/file2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/files/out/file3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/files/out/1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -675,41 +655,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/files/testFiles/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/files/out/file1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/files/tests/u/file2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/files/tests/u/file1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/files/tests/u/file3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/files/testFiles/input.txt" />
     <entry file="file://$PROJECT_DIR$/src/files/tests/out/file2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -717,93 +663,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daxavic/Tar/Tar1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="75" column="47" lean-forward="true" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/files/testFiles/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/files/tests/out/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="28" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/files/testFiles/file1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/files/testFiles/file2.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daxavic/Tar/Tar1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daxavic/Tar/hah.txt" />
+    <entry file="file://$PROJECT_DIR$/src/files/u/file2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/files/tests/u/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="33" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/files/testFiles/file3.txt">
+    <entry file="file://$PROJECT_DIR$/src/files/u/file3.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/files/out/file1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/files/out/file2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/files/out/file3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/java/jdk1.8.0_201/src.zip!/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="610" selection-start-line="610" selection-end-line="610" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/java/jdk1.8.0_201/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/files/out/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="29" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/files/tests/u/file1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="18" column="62" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/files/tests/u/file2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/files/tests/u/file3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/files/u/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/files/tests/u/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/files/u/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/files/u/file1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/daxavic/Tar/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="136">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/files/tests/out/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/daxavic/Tar/TarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        <state relative-caret-position="204">
+          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#612#620#0" expanded="true" />
+            <element signature="e#671#679#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daxavic/Tar/hah.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/daxavic/Tar/Tar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-850">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="328">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#1553#1571#0" expanded="true" />
           </folding>
         </state>
       </provider>

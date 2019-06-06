@@ -28,13 +28,6 @@ public class Main {
     public void dMain(String comandLine) throws IOException{
         String[] arg = comandLine.split(" ");
         Tar tar = new Tar(comandLine);
-
-        if (arg[0].equals("tar")){
-            if (arg[1].equals("-u")){
-                tar.u();
-            }
-            else tar.out();
-        }
     }
 }
 
