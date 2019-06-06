@@ -2,6 +2,7 @@ package com.daxavic.Tar;
 
 import java.io.*;
 import java.io.IOException;
+import java.nio.file.NoSuchFileException;
 import java.nio.file.Paths;
 import java.nio.file.Files;
 import java.util.*;
@@ -29,37 +30,41 @@ public class Tar {
     }
 
     public void u() throws IOException {
-        File inputFile = new File(commandLine[2]);
-        List<String> lines = Files.readAllLines(Paths.get(commandLine[2]));
-        int numberOfLines = lines.size();                       // показывает количество строк в исходном файле
-        int numberLine = 0;                                     // показывает номер строки в исходном файле
-        int n = Integer.parseInt(lines.get(0));                 // показывает, сколько строк занимают названия файлов
-        Map<String, Integer> outputFiles = new HashMap<String , Integer>();    // записывается пара: название файла - кол-во строк в файле
-        for (int i = 1; i <= n; i++){
-            numberLine++;
-            String input = lines.get(i);
-            List <String> inputLine = Arrays.asList(input.trim().split(";"));
-            String name = inputLine.get(0);
-            Integer end = Integer.valueOf(inputLine.get(1));
-            outputFiles.put(name, end);
-        }
+        try {
+            File inputFile = new File(commandLine[2]);
+            List<String> lines = Files.readAllLines(Paths.get(commandLine[2]));
+            int numberOfLines = lines.size();                       // показывает количество строк в исходном файле
+            int numberLine = 0;                                     // показывает номер строки в исходном файле
+            int n = Integer.parseInt(lines.get(0));                 // показывает, сколько строк занимают названия файлов
+            Map<String, Integer> outputFiles = new HashMap<String , Integer>();    // записывается пара: название файла - кол-во строк в файле
+            for (int i = 1; i <= n; i++){
+                numberLine++;
+                String input = lines.get(i);
+                List <String> inputLine = Arrays.asList(input.trim().split(";"));
+                String name = inputLine.get(0);
+                Integer end = Integer.valueOf(inputLine.get(1));
+                outputFiles.put(name, end);
 
-        int outputFileLines;
-        while (numberLine < numberOfLines - 1) {
-            numberLine++;
-            String line = lines.get(numberLine);
-            outputFileLines = outputFiles.get(line.trim());
-            String fileName = line.trim();
-            File output = new File("C:\\Users\\davik\\IdeaProjects\\Tar\\src\\" + fileName);
-            FileWriter fileWrite = new FileWriter(output);
-            BufferedWriter bufferedWriter = new BufferedWriter(fileWrite);
-            while (outputFileLines > 0){
-                numberLine++ ;
-                bufferedWriter.write(lines.get(numberLine));
-                bufferedWriter.newLine();
-                outputFileLines--;
+                int outputFileLines;
+                while (numberLine < numberOfLines - 1) {
+                    numberLine++;
+                    String line = lines.get(numberLine);
+                    outputFileLines = outputFiles.get(line.trim());
+                    String fileName = line.trim();
+                    File output = new File("C:\\Users\\davik\\IdeaProjects\\Tar\\src\\" + fileName);
+                    FileWriter fileWrite = new FileWriter(output);
+                    BufferedWriter bufferedWriter = new BufferedWriter(fileWrite);
+                    while ( outputFileLines > 0 ) {
+                        numberLine++;
+                        bufferedWriter.write(lines.get(numberLine));
+                        bufferedWriter.newLine();
+                        outputFileLines--;
+                    }
+                    bufferedWriter.close();
+                }
             }
-            bufferedWriter.close();
+        }catch (NoSuchFileException ex){
+            System.err.println(ex.getMessage());
         }
     }
 
